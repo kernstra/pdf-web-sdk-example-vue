@@ -1,0 +1,3 @@
+# Keep the page stylesheet out of GitHub's language statistics, so the
+# repository is labelled with the language the example is written in.
+src/app.css linguist-detectable=false

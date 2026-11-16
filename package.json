@@ -1,0 +1,30 @@
+{
+  "name": "pdf-web-sdk-example-vue",
+  "description": "Vue 3 + Vite example for the Kernstra PDF Web SDK: view, annotate, edit and fill PDFs in the browser.",
+  "keywords": ["pdf", "pdf-viewer", "pdf-editor", "pdf-sdk", "pdf-annotation", "pdf-forms", "kernstra", "vue", "vue3", "vue-pdf-viewer", "vite", "typescript"],
+  "homepage": "https://kernstra.com/web-sdk",
+  "repository": { "type": "git", "url": "git+https://github.com/kernstra/pdf-web-sdk-example-vue.git" },
+  "bugs": { "url": "https://github.com/kernstra/pdf-web-sdk-example-vue/issues", "email": "support@kernstra.com" },
+  "license": "MIT",
+  "author": "Kernstra (https://kernstra.com)",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@kernstra/pdf-web-sdk": "^1.0.0",
+    "vue": "^3.5.44"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "@vitejs/plugin-vue": "^6.0.10",
+    "@vue/tsconfig": "^0.9.1",
+    "typescript": "~6.0.3",
+    "vite": "^8.3.6",
+    "vue-tsc": "^3.3.14"
+  }
+}
